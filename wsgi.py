@@ -1,4 +1,4 @@
-from hello import app, main
+from app import app, main
 
 if __name__ == '__main__':
 	main()
