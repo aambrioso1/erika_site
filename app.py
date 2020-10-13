@@ -36,7 +36,7 @@ app.layout = html.Div([
 #fig.show()
 
 def main():
-    app.run(debug=True, port=5000)
+    app.run_server(debug=True, port=5000)
 
 if __name__ == '__main__':
     app.run_server(debug=True, port=5000)
