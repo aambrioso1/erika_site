@@ -36,3 +36,6 @@ app.layout = html.Div([
 
 def main():
     app.run_server(debug=True, port=5000)
+
+if __name__ == "__main__":
+    main()
