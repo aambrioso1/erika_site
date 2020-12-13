@@ -85,6 +85,7 @@ celerybeat-schedule
 .env
 .venv
 erika_site_venv/
+venv_erika_site/
 env/
 venv/
 ENV/
