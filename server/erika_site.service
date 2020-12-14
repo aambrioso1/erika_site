@@ -1,5 +1,5 @@
 [Unit]
-Description=uWSGI Erika_Site server instance
+Description=uWSGI erika_site server instance
 After=syslog.target
 
 [Service]
