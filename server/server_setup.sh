@@ -19,7 +19,7 @@ sudo apt-get install --no-install-recommends -y -q libpcre3-dev libz-dev
 sudo apt install fail2ban -y
 
 ufw allow 22
-ufw allow 80
+ufw allow 81
 ufw allow 443
 ufw enable
 
@@ -33,7 +33,7 @@ git config --global user.name "aambrioso"
 
 # Web app file structure
 mkdir /apps
-chmod 777 /apps # WHat does this do?
+chmod 777 /apps # What does this do?
 mkdir /apps/logs
 mkdir /apps/logs/erika_site
 mkdir /apps/logs/erika_site/app_log
