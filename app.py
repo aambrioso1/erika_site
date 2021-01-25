@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html')
 
+@app.route('/mom/', methods=['GET', 'POST'])
+def mom():
+    return render_template('mom.html')
+
 def main():
 	app.run(debug=True,port=5001)
 
